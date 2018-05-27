@@ -17,9 +17,9 @@ $txt['days_short'] = array('Вс.', 'Пн.', 'Вт.', 'Ср.', 'Чт.', 'Пт.',
 
 // Months must start with 1 => 'January'. (or translated, of course.)
 $txt['months_title'] = 'месяцев';
-$txt['months'] = array(1 => 'Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря');
 $txt['months_titles'] = array(1 => 'Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь');
 $txt['months_short'] = array(1 => 'Янв.', 'Фев.', 'Март', 'Апр.', 'Май', 'Июнь', 'Июль', 'Авг.', 'Сен.', 'Окт.', 'Нояб.', 'Дек.');
+$txt['months'] = isset($_REQUEST['action']) && $_REQUEST['action'] == 'stats' ? $txt['months_titles'] : array(1 => 'января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря');
 $txt['prev_month'] = 'Предыдущий месяц';
 $txt['next_month'] = 'Следующий месяц';
 $txt['start'] = 'Начало';
@@ -138,7 +138,7 @@ $txt['page'] = 'Страница';
 $txt['prev'] = 'предыдущая страница';
 $txt['next'] = 'следующая страница';
 
-$txt['lock_unlock'] = 'Заблокировать/Разблокировать тему';
+$txt['lock_unlock'] = 'Заблокировать/разблокировать тему';
 $txt['post'] = 'Отправить';
 $txt['error_occured'] = 'Ошибка!';
 $txt['at'] = 'в';
@@ -153,7 +153,7 @@ $txt['last_poster'] = 'Последний ответ от';
 $txt['last_post_message'] = '<strong>Последний ответ: </strong>%3$s<br>%2$s от %1$s';
 $txt['last_post_topic'] = '%1$s<br>от %2$s';
 $txt['post_by_member'] = '<strong>%1$s</strong> от <strong>%2$s</strong><br>';
-$txt['boardindex_total_posts'] = '%1$s Сообщений в %2$s Темах от %3$s Пользователей';
+$txt['boardindex_total_posts'] = 'Сообщений: %1$s, тем: %2$s, пользователей: %3$s';
 $txt['show'] = 'Скрыть';
 $txt['hide'] = 'Показать';
 
@@ -685,13 +685,13 @@ $txt['who_member'] = 'Пользователь';
 $txt['rss'] = 'RSS';
 $txt['atom'] = 'Atom';
 
-$txt['guest'] = 'Гость';
-$txt['guests'] = 'Гостей';
-$txt['user'] = 'Пользователь';
-$txt['users'] = 'Пользователей';
-$txt['hidden'] = 'Скрытый';
+$txt['guest'] = 'гость';
+$txt['guests'] = 'гостей';
+$txt['user'] = 'пользователь';
+$txt['users'] = 'пользователей';
+$txt['hidden'] = 'скрытый';
 // Plural form of hidden for languages other than English
-$txt['hidden_s'] = 'Скрытых';
+$txt['hidden_s'] = 'скрытых';
 $txt['buddy'] = 'Друг';
 $txt['buddies'] = 'Друзей';
 $txt['most_online_ever'] = 'Максимум онлайн за всё время';

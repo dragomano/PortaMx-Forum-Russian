@@ -17,15 +17,15 @@
 	%A - full weekday name (english - Sunday .. Saturday)
 	%b - abbreviated month name (english - Jan .. Dec)
 	%B - full month name (english - Januaray .. December)
-	%d - day of the month (01 .. 31) 
+	%d - day of the month (01 .. 31)
 	%H - hour as a number (00 to 23)
 	%I - hour as a number (00 to 12)
 	%p - 'am' or 'pm'
-	%m - month as a number (01 to 12) 
+	%m - month as a number (01 to 12)
 	%M - minute as a number  (00 to 59)
-	%I - minute as 
+	%I - minute as
 	%S - second as a decimal number (00 to 59)
-	%y - 2 digit year (00 to 99) 
+	%y - 2 digit year (00 to 99)
 	%Y - 4 digit year (0000 to 2099)
 
 	for the data-time object
@@ -62,16 +62,16 @@ $txt['time_am'] = 'am';
 $txt['time_pm'] = 'pm';
 
 // Number format (1 234,00)
-// length decimals, decimal separator, thausend separator 
+// length decimals, decimal separator, thausend separator
 $txt['number_format'] = '1,234.00';
 $txt['numforms'] = array(0 => 2, 1 => ',', 2 => '&thinsp;');
 
 // default Time format (2017 March 10, 08:30:15 pm)
-$modSettings['time_format'] = '%Y %B %d, %I:%M:%S %p';
-$txt['default_time_format'] = '%Y %B %d, %I:%M:%S %p';
+$modSettings['time_format'] = '%d %B %Y, %H:%M';
+$txt['default_time_format'] = '%d %B %Y, %H:%M';
 
 // beginning of week = Sunday (only for Guests)
-$txt['dp_firstday'] = 0;
+$txt['dp_firstday'] = 1;
 
 // Date / Time converting
 $txt['dp_format'] = 'yy-mm-dd';
@@ -86,17 +86,17 @@ $txt['dp_timeconv'] = 'h:i a';
 
 // date converting user Birthdate
 $txt['inputs_bd'] = array(
-	0 => array(0 => 'bday3', 1 => 'year', 2 => 4),
+	0 => array(0 => 'bday2', 1 => 'day', 2 => 2),
 	1 => array(0 => 'bday1', 1 => 'month', 2 => 2),
-	2 => array(0 => 'bday2', 1 => 'day', 2 => 2)
+	2 => array(0 => 'bday3', 1 => 'year', 2 => 4)
 );
 
 // Stats format & order
-$modSettings['stats_format'] = '%1$s-%2$s-%3$s';
+$modSettings['stats_format'] = '%1$s.%2$s.%3$s';
 $modSettings['stats_oder'] = array(
-	0 => array(0 => '%04d', 1 => 'stats_year'),
+	0 => array(0 => '%2d', 1 => 'stats_day'),
 	1 => array(0 => '%02d', 1 => 'stats_month'),
-	2 => array(0 => '%02d', 1 => 'stats_day')
+	2 => array(0 => '%04d', 1 => 'stats_year')
 );
 
 // GEOIP Country Code => default language for Guests

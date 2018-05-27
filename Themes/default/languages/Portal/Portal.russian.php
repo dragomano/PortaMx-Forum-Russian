@@ -81,7 +81,7 @@ $txt["pmx_fader_description"] = 'Непрозрачный слайдер';
 $txt['pmx_admSet_globals'] = 'Общие установки';
 $txt['pmx_admSet_panels'] = 'Панели';
 $txt['pmx_admSet_front'] = 'Главная страница';
-$txt['pmx_admSet_control'] = 'Управление блоками';
+$txt['pmx_admSet_control'] = 'Блоки';
 $txt['pmx_admSet_access'] = 'Настройки доступа';
 $txt['cache_clear_ok'] = 'Кэш портала успешно очищен.';
 
