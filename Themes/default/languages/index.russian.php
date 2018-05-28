@@ -526,11 +526,11 @@ $txt['birthdays_upcoming'] = 'Ближайшие дни рождения:';
 $txt['events_upcoming'] = 'Ближайшие события:';
 
 // Prompt for holidays in the calendar, leave blank to just display the holiday's name.
-$txt['calendar_prompt'] = '';
-$txt['calendar_month'] = 'Месяц:';
-$txt['calendar_month_sel'] = 'Month:';
-$txt['calendar_year'] = 'Год:';
-$txt['calendar_day'] = 'День:';
+$txt['calendar_prompt'] = 'Праздники:';
+$txt['calendar_month'] = 'Месяц';
+$txt['calendar_month_sel'] = 'Месяц:';
+$txt['calendar_year'] = 'Год';
+$txt['calendar_day'] = 'День';
 $txt['calendar_event_title'] = 'Название события';
 $txt['calendar_event_options'] = 'Настройки события';
 $txt['calendar_post_in'] = 'Отправить в:';
@@ -705,7 +705,7 @@ $txt['merge_custom_subject'] = 'Выбрать название';
 $txt['merge_include_notifications'] = 'Включить уведомления?';
 $txt['merge_check'] = 'Объединить?';
 $txt['merge_no_poll'] = 'Нет голосования';
-$txt['merge_why'] = 'Кратко опишите причину по которой эти темы объединены.';
+$txt['merge_why'] = 'Кратко опишите причину, по которой эти темы объединены.';
 $txt['merged_subject'] = '[ОБЪЕДИНЕНА] %1$s';
 $txt['mergetopic_default'] = 'Эта тема была объединена в ' . $txt['movetopic_auto_topic'] . '.';
 
