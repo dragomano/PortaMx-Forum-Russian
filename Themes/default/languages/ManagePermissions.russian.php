@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; ManagePermissions
+// Version: 1.4; ManagePermissions
 
 $txt['permissions_title'] = 'Управление правами доступа пользователей';
 $txt['permissions_modify'] = 'Изменить';
@@ -240,7 +240,7 @@ $txt['permissiongroup_likes'] = 'Лайки';
 $txt['permissionname_likes_view'] = 'Просмотр лайков';
 $txt['permissionhelp_likes_view'] = 'Позволяет видеть любые лайки. Без этого разрешения пользователь будет видеть только лайки, которые поставил он сам.';
 $txt['permissionname_likes_like'] = 'Ставить лайки';
-$txt['permissionhelp_likes_like'] = 'Позволяет пользователям ставить лайки для любых элементов. Пользователи не могут ставить лайки для элементов, созданных ими самими.';
+$txt['permissionhelp_likes_like'] = 'Позволяет пользователям ставить лайки сообщениям. Пользователи не могут ставить лайки собственным сообщениям.';
 
 $txt['permissiongroup_mentions'] = 'Упоминания';
 $txt['permissionname_mention'] = 'Упоминание других пользователей через @ник';

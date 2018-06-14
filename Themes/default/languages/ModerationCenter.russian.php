@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; ModerationCenter
+// Version: 1.4; ModerationCenter
 
 $txt['moderation_center'] = 'Центр модерации';
 $txt['mc_main'] = 'Главная';

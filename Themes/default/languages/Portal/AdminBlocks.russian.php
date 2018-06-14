@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; AdminBlocks
+// Version: 1.4; AdminBlocks
 
 /**
  * PortaMx Forum

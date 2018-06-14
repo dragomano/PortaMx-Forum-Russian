@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; Alerts
+// Version: 1.4; Alerts
 
 // Load Alerts strings
 $txt['topic_na'] = '(недоступная тема)';

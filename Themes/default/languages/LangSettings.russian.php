@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; LangSettings
+// Version: 1.4; LangSettings
 
 /**
  * This file init the default forum language
@@ -74,15 +74,17 @@ $txt['default_time_format'] = '%d %B %Y, %H:%M';
 $txt['dp_firstday'] = 1;
 
 // Date / Time converting
-$txt['dp_format'] = 'yy-mm-dd';
-$txt['dp_minDate'] = '01-01-%s';
-$txt['dp_maxDate'] = '31-12-%s';
-$txt['dp_from_format'] = 'Y-m-d';
-$txt['dp_to_format'] = 'Y-m-d';
-$txt['dp_minDate'] = '%s-01-01';
-$txt['dp_maxDate'] = '%s-12-31';
+$txt['dp_format'] = 'dd.mm.yy';
+$txt['dp_minDate'] = '01.01.%s';
+$txt['dp_maxDate'] = '31.12.%s';
+$txt['dp_from_format'] = 'd.m.Y';
+$txt['dp_to_format'] = 'd.m.Y';
+$txt['dp_minDate'] = '01.01.%s';
+$txt['dp_maxDate'] = '31.12.%s';
 $txt['dp_birstday'] = '%1$s %2$s';
 $txt['dp_timeconv'] = 'h:i a';
+$txt['gdpr_from_format'] = 'd.m.Y';
+$txt['gdpr_to_format'] = 'd.m.Y';
 
 // date converting user Birthdate
 $txt['inputs_bd'] = array(
@@ -109,4 +111,8 @@ $txt['geoip_lang'] = array(
 	'LI' => 'german',
 	'RU' => 'russian');
 
+// Disclaimer Titel
+$txt['disclaimer_title'] = 'О сайте';
+$txt['disclaimer_country'] = 'Россия';
+$txt['disclaimer_disabled'] = 'В настоящее время эта функция недоступна.'
 ?>

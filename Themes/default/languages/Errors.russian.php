@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; Errors
+// Version: 1.4; Errors
 
 global $scripturl, $modSettings;
 
@@ -446,5 +446,5 @@ $txt['json_JSON_ERROR_UTF8'] = 'Ошибка декодирования JSON: н
 $txt['json_JSON_ERROR_RECURSION'] = 'Ошибка декодирования JSON: одна или несколько рекурсивных ссылок в кодируемом значении';
 $txt['json_JSON_ERROR_INF_OR_NAN'] = 'Ошибка декодирования JSON: одно или несколько значений NAN или INF в кодируемом значении';
 $txt['json_JSON_ERROR_UNSUPPORTED_TYPE'] = 'Ошибка декодирования JSON: значение типа, который не может быть закодирован';
-$txt['json_unknown'] = 'Неизвестная ошибка';
+$txt['json_unknown'] = 'Неизвестная ошибка JSON';
 ?>

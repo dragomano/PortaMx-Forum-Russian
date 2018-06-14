@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; Portal
+// Version: 1.4; Portal
 
 /**
  * PortaMx Forum

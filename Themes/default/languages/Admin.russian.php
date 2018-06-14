@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; Admin
+// Version: 1.4; Admin
 
 global $settings, $scripturl;
 
@@ -36,8 +36,8 @@ $txt['admin_manage_members'] = 'Пользователи';
 $txt['admin_main'] = 'Начало';
 $txt['admin_config'] = 'Конфигурация';
 $txt['admin_version_check'] = 'Детальная проверка версии';
-$txt['admin_smffile'] = 'Файлы PortaMx Forum';
-$txt['admin_smfpackage'] = 'Дистрибутив PortaMx Forum';
+$txt['admin_pmxfile'] = 'Файлы PortaMx Forum';
+$txt['admin_pmxpackage'] = 'Дистрибутив PortaMx Forum';
 $txt['admin_logoff'] = 'Завершить сессию администратора';
 $txt['admin_maintenance'] = 'Обслуживание';
 $txt['admin_image_text'] = 'Показывать кнопки вместо текста';

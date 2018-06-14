@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; ManageSmileys
+// Version: 1.4; ManageSmileys
 
 $txt['smiley_sets_save'] = 'Сохранить изменения';
 $txt['smiley_sets_add'] = 'Установить новые смайлы';

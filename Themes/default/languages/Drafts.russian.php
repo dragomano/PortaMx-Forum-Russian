@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; Drafts
+// Version: 1.4; Drafts
 
 // profile
 $txt['drafts_show'] = 'Черновики';

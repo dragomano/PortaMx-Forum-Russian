@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; Search
+// Version: 1.4; Search
 
 $txt['set_parameters'] = 'Параметры поиска';
 $txt['choose_board'] = 'Выберите раздел, в котором будет производиться поиск';
@@ -130,10 +130,13 @@ $txt['spider_last_seen'] = 'Последнее посещение';
 $txt['spider_last_never'] = 'Никогда';
 $txt['spider_agent'] = 'User-agent';
 $txt['spider_ip_info'] = 'IP-адреса';
-$txt['spiders_add'] = 'Добавить нового паука';
+$txt['spiders_add'] = 'Добавить паука';
 $txt['spiders_edit'] = 'Изменить паука';
-$txt['spiders_remove_selected'] = 'Удалить выделенных пауков';
-$txt['spider_remove_selected_confirm'] = 'Хотите удалить этих пауков?\\n\\nВся статистика, также, будет удалена!';
+$txt['spider_remove'] = 'Удалить';
+$txt['spider_block'] = 'Блокировать паука';
+
+$txt['spiders_change_selected'] = 'Изменить выделенных пауков';
+$txt['spider_change_selected_confirm'] = 'Хотите заблокировать/разблокировать или удалить этих пауков?-n-Вся статистика будет удалена!';
 $txt['spiders_no_entries'] = 'Ни одного паука не добавлено.';
 
 $txt['add_spider_desc'] = 'На этой странице можно редактировать параметры пауков. Если User-agent / IP-адрес гостя будет совпадать с введенными ниже, то он будет опознан как паук поисковой системы и его  действия будут записаны согласно настройкам форума.';

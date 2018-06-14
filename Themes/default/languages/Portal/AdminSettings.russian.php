@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; AdminSettings
+// Version: 1.4; AdminSettings
 
 /**
  * PortaMx Forum

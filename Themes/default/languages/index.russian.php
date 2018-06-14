@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; index
+// Version: 1.4; index
 
 global $forum_copyright, $webmaster_email, $scripturl, $context, $modSettings, $boardurl;
 
@@ -7,7 +7,7 @@ global $forum_copyright, $webmaster_email, $scripturl, $context, $modSettings, $
 $txt['manual_welcome'] = 'Добро пожаловать на форум %s, работающий на движке PortaMx&reg; Forum Software!';
 $txt['manual_user_help'] = 'Справка пользователя PortaMx';
 $txt['manual_not_available'] = 'Эта страница пока недоступна.';
-$txt['agreement_disabled'] = '<strong>Регистрационное соглашение отключено !</strong>';
+$txt['agreement_disabled'] = '<strong>Регистрационное соглашение отключено!</strong>';
 
 $txt['calendar_allday'] = 'Весь день';
 $txt['cal_location'] = 'Расположение';
@@ -17,9 +17,9 @@ $txt['days_short'] = array('Вс.', 'Пн.', 'Вт.', 'Ср.', 'Чт.', 'Пт.',
 
 // Months must start with 1 => 'January'. (or translated, of course.)
 $txt['months_title'] = 'месяцев';
+$txt['months'] = array(1 => 'января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря');
 $txt['months_titles'] = array(1 => 'Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь');
 $txt['months_short'] = array(1 => 'Янв.', 'Фев.', 'Март', 'Апр.', 'Май', 'Июнь', 'Июль', 'Авг.', 'Сен.', 'Окт.', 'Нояб.', 'Дек.');
-$txt['months'] = isset($_REQUEST['action']) && $_REQUEST['action'] == 'stats' ? $txt['months_titles'] : array(1 => 'января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря');
 $txt['prev_month'] = 'Предыдущий месяц';
 $txt['next_month'] = 'Следующий месяц';
 $txt['start'] = 'Начало';
@@ -71,7 +71,7 @@ $txt['upload'] = 'Загрузка';
 $txt['upload_all'] = 'Загрузить все';
 $txt['processing'] = 'Обработка... ';
 $txt['footer_clear_cache'] = 'Очистить кэш';
-$txt['disclaimer'] = 'Оговорка';
+$txt['disclaimer'] = 'Контактная информация';
 
 $txt['modify'] = 'Изменить';
 $txt['forum_index'] = '%1$s - Главная страница';
@@ -111,7 +111,7 @@ $txt['reason_for_edit'] = 'Причина редактирования';
 
 $txt['choose_pass'] = 'Пароль';
 $txt['verify_pass'] = 'Подтвердите пароль';
-$txt['notify_announcements'] = 'Разрешить администраторам отправлять мне важные новости по почте';
+$txt['notify_announcements'] = 'Разрешить отправку важных новостей по почте';
 
 $txt['position'] = 'Группа';
 
@@ -156,11 +156,12 @@ $txt['post_by_member'] = '<strong>%1$s</strong> от <strong>%2$s</strong><br>';
 $txt['boardindex_total_posts'] = 'Сообщений: %1$s, тем: %2$s, пользователей: %3$s';
 $txt['show'] = 'Скрыть';
 $txt['hide'] = 'Показать';
+$txt['play_on_youtube'] = 'Нажмите для просмотра видео на Youtube';
 
 $txt['admin_login'] = 'Логин администратора';
 $txt['topic'] = 'Тема';
 $txt['help'] = 'Помощь';
-$txt['terms_and_rules'] = 'Условия и правила';
+$txt['terms_and_rules'] = 'Политика конфиденциальности';
 $txt['watch_board'] = 'Следить за разделом';
 $txt['unwatch_board'] = 'Не следить за разделом';
 $txt['watch_topic'] = 'Следить за темой';

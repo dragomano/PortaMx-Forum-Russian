@@ -1,5 +1,5 @@
 <?php
-// Version: 1.3; Editor
+// Version: 1.4; Editor
 
 global $editortxt;
 
@@ -47,7 +47,7 @@ $editortxt['More'] = 'Ещё';
 $editortxt['Insert an emoticon'] = 'Вставить смайл';
 $editortxt['Video URL:'] = 'Ссылка на видео:';
 $editortxt['Insert'] = 'Вставить ';
-$editortxt['Insert a YouTube video'] = 'Вставить видео с YouTube';
+$editortxt['Insert a video'] = 'Вставить видео с YouTube';
 $editortxt['Insert current date'] = 'Вставить текущую дату';
 $editortxt['Insert current time'] = 'Вставить текущее время';
 $editortxt['Print'] = 'Печать';

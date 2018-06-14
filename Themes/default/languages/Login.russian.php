@@ -1,13 +1,19 @@
 <?php
-// Version: 1.3; Login
+// Version: 1.4; Login
 
-global $context;
+global $context, $mbname;
+
+// GDPR (DSGVO)
+$txt['gdpr_registration_agreement'] = 'Общее положение о защите данных (GDPR) - Соглашение о политике конфиденциальности';
+$txt['gdpr_agreement_agree'] = 'Я принимаю политику конфиденциальности.';
+$txt['gdpr_agreement_footer'] = '<br>Политика конфиденциальности "'. $mbname .'"';
+$txt['gdpr_agreement_updated'] = ', обновлена {date}';
 
 // Registration agreement page.
-$txt['registration_agreement'] = 'Регистрационное соглашение';
-$txt['agreement_agree'] = 'Я принимаю соглашение';
-$txt['agreement_agree_coppa_above'] = 'Я принимаю соглашение и я старше %1$d лет';
-$txt['agreement_agree_coppa_below'] = 'Я принимаю соглашение и я младше %1$d лет';
+$txt['registration_agreement'] = 'Соглашение о политике конфиденциальности';
+$txt['agreement_agree'] = 'Я принимаю условия соглашения';
+$txt['agreement_agree_coppa_above'] = 'Я принимаю условия соглашения и я старше %1$d лет';
+$txt['agreement_agree_coppa_below'] = 'Я принимаю условия соглашения и я младше %1$d лет';
 $txt['agree_coppa_above'] = 'Мне как минимум %1$d лет.';
 $txt['agree_coppa_below'] = 'Мне меньше %1$d лет.';
 
@@ -24,7 +30,7 @@ $txt['now_a_member'] = 'Поздравляем! Теперь вы полнопр
 $txt['your_password'] = 'и ваш пароль';
 $txt['valid_email_needed'] = 'Пожалуйста, введите действительный электронный адрес, %1$s.';
 $txt['required_info'] = 'Необходимая информация';
-$txt['identification_by_smf'] = 'Используется только для идентификации форумом.';
+$txt['identification_by_pmx'] = 'Используется только для идентификации форумом.';
 $txt['additional_information'] = 'Дополнительная информация';
 $txt['warning'] = 'Внимание!';
 $txt['only_members_can_access'] = 'Только зарегистрированные пользователи имеют доступ в этот раздел.';
