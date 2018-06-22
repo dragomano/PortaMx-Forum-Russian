@@ -32,8 +32,8 @@ $txt['repair_missing_topic_for_cache'] = 'Словоформы \'%1$d\' ссыл
 $txt['repair_missing_log_poll_member'] = 'Голосование #%1$d было открыто пользователем #%2$d, который сейчас не существует.';
 $txt['repair_missing_log_poll_vote'] = 'Пользователем был отдан голос #%1$d в несуществующем голосовании #%2$d.';
 $txt['repair_missing_thumbnail_parent'] = 'Существует эскиз картинки с именем %1$s, но нет самой картинки.';
-$txt['repair_report_missing_comments'] = 'Отчет #%1$d о теме: &quot;%s&quot; не содержит комментариев.';
-$txt['repair_comments_missing_report'] = 'Комментарий к отчету #%1$d от %s не связан ни с одним отчетом.';
+$txt['repair_report_missing_comments'] = 'Отчёт #%1$d о теме: &quot;%s&quot; не содержит комментариев.';
+$txt['repair_comments_missing_report'] = 'Комментарий к отчёту #%1$d от %s не связан ни с одним отчётом.';
 $txt['repair_group_request_missing_member'] = 'Запрос на членство в группе существует для удаленного пользователя #%1$d.';
 $txt['repair_group_request_missing_group'] = 'Запрос на членство в группе существует для удаленной группы #%1$d.';
 
@@ -66,8 +66,8 @@ $txt['repair_operation_missing_cached_subject'] = 'Раздел отсутств
 $txt['repair_operation_missing_topic_for_cache'] = 'Кэш поиска ссылается на несуществующий раздел';
 $txt['repair_operation_missing_member_vote'] = 'Результаты голосования ссылаются на несуществующего пользователя';
 $txt['repair_operation_missing_log_poll_vote'] = 'Результаты голосования ссылаются на несуществующее голосование';
-$txt['repair_operation_report_missing_comments'] = 'Отчет о теме без комментария';
-$txt['repair_operation_comments_missing_report'] = 'Комментарий к отчету не связан ни с одним отчетом';
+$txt['repair_operation_report_missing_comments'] = 'Отчёт о теме без комментария';
+$txt['repair_operation_comments_missing_report'] = 'Комментарий к отчёту не связан ни с одним отчётом';
 $txt['repair_operation_group_request_missing_member'] = 'Запрос на участие в группе от несуществующего пользователя';
 $txt['repair_operation_group_request_missing_group'] = 'Запрос на участие в несуществующей группе';
 

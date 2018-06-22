@@ -840,7 +840,7 @@ $txt['quick_mod_restore'] = 'Восстановить выделенные со�
 $txt['prompt_text_email'] = 'Введите электронный адрес.';
 $txt['prompt_text_ftp'] = 'Введите адрес FTP-сервера';
 $txt['prompt_text_url'] = 'Введите URL-адрес ссылки.';
-$txt['prompt_text_img'] = 'Ведите URL-адрес картинки.';
+$txt['prompt_text_img'] = 'Введите URL-адрес картинки.';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['autosuggest_delete_item'] = 'Удалить';

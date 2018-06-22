@@ -47,7 +47,7 @@ $txt['pm_error_ignored_by_user'] = 'Пользователь \'%1$s\' забло
 $txt['pm_error_data_limit_reached'] = 'Сообщение не может быть отправлено пользователю \'%1$s\', так как его ящик переполнен!';
 $txt['pm_error_user_cannot_read'] = 'Пользователь \'%1$s\' не может получать личные сообщения.';
 $txt['pm_successfully_sent'] = 'Личное сообщение успешно отправлено пользователю \'%1$s\'.';
-$txt['pm_send_report'] = 'Отправить отчет';
+$txt['pm_send_report'] = 'Отправить отчёт';
 $txt['pm_undisclosed_recipients'] = 'Скрытые получатели';
 $txt['pm_too_many_recipients'] = 'Вы не можете отсылать личные сообщения более чем %1$d получателям за один раз.';
 
@@ -104,16 +104,16 @@ $txt['pm_report_reason'] = 'Причина';
 $txt['pm_report_message'] = 'Отправить';
 
 // Important - The following strings should use numeric entities.
-$txt['pm_report_pm_subject'] = '[Отчет] ';
+$txt['pm_report_pm_subject'] = '[Отчёт] ';
 // In the below string, do not translate "{REPORTER}" or "{SENDER}".
-$txt['pm_report_pm_user_sent'] = '{REPORTER} отправил отчет о личном сообщении, отправленном {SENDER}, по следующим причинам:';
+$txt['pm_report_pm_user_sent'] = '{REPORTER} отправил отчёт о личном сообщении, отправленном {SENDER}, по следующим причинам:';
 $txt['pm_report_pm_other_recipients'] = 'Другие получатели сообщения:';
-$txt['pm_report_pm_hidden'] = '%1$d скрытые получатели';
-$txt['pm_report_pm_unedited_below'] = 'Ниже содержание личного сообщения о котором посылали отчет:';
+$txt['pm_report_pm_hidden'] = 'Скрытые получатели (%1$d):';
+$txt['pm_report_pm_unedited_below'] = 'Ниже содержание личного сообщения, о котором посылали отчёт:';
 $txt['pm_report_pm_sent'] = 'Отправители:';
 
-$txt['pm_report_done'] = 'Благодарим за отправленную жалобу. В скором времени Вы должны получить ответ от администрации.';
-$txt['pm_report_return'] = 'Вернутся во входящие';
+$txt['pm_report_done'] = 'Благодарим за отправленную жалобу. В скором времени вы должны получить ответ от администрации.';
+$txt['pm_report_return'] = 'Вернуться во входящие';
 
 $txt['pm_search_title'] = 'Поиск личных сообщений';
 $txt['pm_search_bar_title'] = 'Поиск сообщений';
