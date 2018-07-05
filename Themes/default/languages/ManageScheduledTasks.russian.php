@@ -38,14 +38,14 @@ $txt['scheduled_task_remove_temp_attachments'] = 'Удаление времен�
 $txt['scheduled_task_desc_remove_temp_attachments'] = 'Удаляет временные файлы, созданные во время вложения в сообщения, которые, по какой-то причине, не были переименованы или удалены ранее.';
 
 $txt['scheduled_task_reg_starting'] = 'Начинать в %1$s';
-$txt['scheduled_task_reg_repeating'] = 'повторять каждые %1$d %2$s';
+$txt['scheduled_task_reg_repeating'] = 'повторять через %1$d %2$s';
 $txt['scheduled_task_reg_unit_m'] = 'минут';
 $txt['scheduled_task_reg_unit_h'] = 'час';
 $txt['scheduled_task_reg_unit_d'] = 'день';
 $txt['scheduled_task_reg_unit_w'] = 'неделю';
 
 $txt['scheduled_task_edit'] = 'Изменение задачи';
-$txt['scheduled_task_edit_repeat'] = 'Повторять задачу каждые';
+$txt['scheduled_task_edit_repeat'] = 'Повторять задачу через';
 $txt['scheduled_task_edit_interval'] = 'Интервал';
 $txt['scheduled_task_edit_start_time'] = 'Время запуска';
 $txt['scheduled_task_edit_start_time_desc'] = 'Часы:минуты';
