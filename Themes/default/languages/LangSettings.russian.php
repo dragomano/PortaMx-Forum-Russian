@@ -1,5 +1,5 @@
 <?php
-// Version: 1.4; LangSettings
+// Version: 1.41; LangSettings
 
 /**
  * This file init the default forum language
@@ -53,7 +53,7 @@ $txt['footer_offset'] = array(0 => array(95, 75, 55), 1 => array(90, 70, 50));
 // Locale settings
 $txt['lang_locale'] = 'ru_RU.utf8';
 $txt['lang_dictionary'] = 'ru';
-$txt['lang_spelling'] = '';
+$txt['lang_spelling'] = 'русский';
 $txt['lang_character_set'] = 'UTF-8';
 $txt['lang_rtl'] = false;
 $txt['gcapcha_lang'] = 'ru';
@@ -64,7 +64,7 @@ $txt['time_pm'] = 'pm';
 // Number format (1 234,00)
 // length decimals, decimal separator, thausend separator
 $txt['number_format'] = '1,234.00';
-$txt['numforms'] = array(0 => 2, 1 => ',', 2 => '&thinsp;');
+$txt['numforms'] = array(0 => 2, 1 => '.', 2 => ',');
 
 // default Time format (2017 March 10, 08:30:15 pm)
 $modSettings['time_format'] = '%d %B %Y, %H:%M';
@@ -75,15 +75,12 @@ $txt['dp_firstday'] = 1;
 
 // Date / Time converting
 $txt['dp_format'] = 'dd.mm.yy';
-$txt['dp_minDate'] = '01.01.%s';
-$txt['dp_maxDate'] = '31.12.%s';
-$txt['dp_from_format'] = 'd.m.Y';
-$txt['dp_to_format'] = 'd.m.Y';
-$txt['dp_minDate'] = '01.01.%s';
-$txt['dp_maxDate'] = '31.12.%s';
+$txt['dp_minDate'] = '01-01-%s';
+$txt['dp_maxDate'] = '31-12-%s';
+$txt['dp_from_format'] = 'Y-m-d';
+$txt['dp_to_format'] = 'Y-m-d';
 $txt['dp_birstday'] = '%1$s %2$s';
 $txt['dp_timeconv'] = 'h:i a';
-$txt['gdpr_from_format'] = 'd.m.Y';
 $txt['gdpr_to_format'] = 'd.m.Y';
 
 // date converting user Birthdate
@@ -101,18 +98,9 @@ $modSettings['stats_oder'] = array(
 	2 => array(0 => '%04d', 1 => 'stats_year')
 );
 
-// GEOIP Country Code => default language for Guests
-// Austria, Switzerland, Germany, Liechtenstein (german)
-// Expand this for other languages !!!
-$txt['geoip_lang'] = array(
-	'AT' => 'german',
-	'CH' => 'german',
-	'DE' => 'german',
-	'LI' => 'german',
-	'RU' => 'russian');
-
 // Disclaimer Titel
 $txt['disclaimer_title'] = 'О сайте';
 $txt['disclaimer_country'] = 'Россия';
 $txt['disclaimer_disabled'] = 'В настоящее время эта функция недоступна.'
+
 ?>

@@ -1,5 +1,5 @@
 <?php
-// Version: 1.4; Drafts
+// Version: 1.41; Drafts
 
 // profile
 $txt['drafts_show'] = 'Черновики';
@@ -14,7 +14,7 @@ $txt['draft_edit'] = 'Редактировать черновик';
 $txt['draft_load'] = 'Открыть черновики';
 $txt['draft_hide'] = 'Скрыть черновики';
 $txt['draft_delete'] = 'Удалить черновик';
-$txt['draft_saved_on'] = 'Черновик был сохранен';
+$txt['draft_saved_on'] = '<strong>Черновик был сохранен</strong>:<br>';
 $txt['draft_days_ago'] = '%s дней назад';
 $txt['draft_retain'] = 'он будет храниться ещё %s дней';
 $txt['draft_remove'] = 'Удалить этот черновик';

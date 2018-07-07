@@ -1,5 +1,5 @@
 <?php
-// Version: 1.4; Settings
+// Version: 1.41; Settings
 
 global $settings;
 

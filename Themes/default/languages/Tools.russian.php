@@ -1,5 +1,5 @@
 <?php
-// Version: 1.4; Tools
+// Version: 1.41; Tools
 
 // lightbox messages.
 $txt['lightbox_help'] = 'Нажмите здесь или за пределами этого окна для закрытия.';
@@ -25,10 +25,10 @@ $txt['gdpr_owner_name'] = 'Ваше полное имя';
 $txt['gdpr_owner_street'] = 'Улица и номер дома';
 $txt['gdpr_owner_location'] = 'Почтовый индекс и расположение';
 $txt['gdpr_owner_email'] = 'Электронный адрес';
+$txt['gdpr_owner_country'] = 'Название вашей страны';
 $txt['gdpr_owner_hoster'] = 'Имя, адрес, электронный адрес и сайт вашего хостера';
 $txt['gdpr_last_update'] = 'Дата соглашения о конфиденциальности';
 $txt['gdpr_format_note'] = 'Дата должна быть указана в формате <strong>dd.mm.yyyy</strong>, например: <strong>25.05.2018</strong>';
-
 $txt['portal_enabled'] = 'Включить портал';
 $txt['webkit_scrollbars'] = 'Включить полосы прокрутки Webkit';
 $txt['dont_use_lightbox'] = 'Отключить просмотрщик Lightbox';

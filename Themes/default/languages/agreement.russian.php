@@ -1,5 +1,5 @@
 <?php
-// Version: 1.4; agreement
+// Version: 1.41; agreement
 
 ?>[b]Политика конфиденциальности[/b]
 

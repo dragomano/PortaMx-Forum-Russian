@@ -1,5 +1,5 @@
 <?php
-// Version: 1.4; Install
+// Version: 1.41; Install
 
 // These should be the same as those in index.language.php.
 global $modSettings;

@@ -1,5 +1,5 @@
 <?php
-// Version: 1.4; ManagePermissions
+// Version: 1.41; ManagePermissions
 
 $txt['permissions_title'] = 'Управление правами доступа пользователей';
 $txt['permissions_modify'] = 'Изменить';

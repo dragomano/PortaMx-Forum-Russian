@@ -1,5 +1,5 @@
 <?php
-// Version: 1.4; imprint
+// Version: 1.41; imprint
 
 ?>[b]Адрес владельца форума:[/b]
 {name}
